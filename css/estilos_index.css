@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Teko', sans-serif;
+  color: white;
+  background-color: #08A4BD;
+}
+
+header {
+  width: 98%;
+  background: #01172F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.5em;
+  padding: 1%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.titulo {
+  margin-top: 1.5em;
+  font-size: 3em;
+  text-align: center;
+}
+
+.panel {
+  margin-top: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 40em;
+}
+
+.panel .opciones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel .opciones .cliente {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  height: 30%;
+}
+
+.panel .opciones .cliente .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.panel .opciones .cliente .imagen img {
+  width: 70%;
+  height: 100%;
+}
+
+.panel .opciones .cliente .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel .opciones .cliente .boton .Cliente {
+  width: 80%;
+  height: 60%;
+  font-size: 4em;
+  font-family: 'Teko', sans-serif;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5%;
+  color: white;
+  border: 2px solid white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.panel .opciones .cliente .boton .Cliente:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.panel .opciones .contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 5em;
+  width: 90%;
+  height: 30%;
+}
+
+.panel .opciones .contacto .imagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 40%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel .opciones .contacto .imagen img {
+  width: 60%;
+  height: 90%;
+}
+
+.panel .opciones .contacto .boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel .opciones .contacto .boton .Contactos {
+  width: 80%;
+  height: 60%;
+  font-size: 4em;
+  font-family: 'Teko', sans-serif;
+  background-color: rgba(240, 248, 255, 0);
+  border-radius: 5%;
+  color: white;
+  border: 2px solid white;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s;
+}
+
+.panel .opciones .contacto .Contactos:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.panel .formularios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 100%;
+  font-size: 3em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.panel .formularios .formulario_cliente {
+  background: rgba(1, 23, 47, 0.658);
+  display: none;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2em;
+  width: 100%;
+  background: #01172F;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer h1 {
+  font-size: 3.5em;
+  padding: 0.5em;
+}
+/*# sourceMappingURL=estilos_index.css.map */

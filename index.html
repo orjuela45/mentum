@@ -8,13 +8,6 @@
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="css/estilos_index.css" />
     <script src="js/jquery-3.3.1.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $(".Clientes").click(function(){
-                alert:"funciona";
-            });
-        });
-    </script>
 </head>
 <body>
     <header>
@@ -44,7 +37,32 @@
         </div>
         <div class="formularios">
             <div class="formulario_cliente">
-                <h1>REGISTRO CLIENTES</h1>
+                <div class=" titulo">
+                    <h1>CLIENTES</h1>
+                </div>
+                <div class="panel">
+                    <div class="atributos">
+                        <p>NOMBRE <br>COMPLETO</p>
+                        <p>DIRECCIÓN</p>
+                        <p>TELÉFONO</p>
+                    </div>
+                    <div class="campos">
+                        <div class="crear_c">
+                        </div>
+                        <div class="modificar_c">
+                        </div>
+                        <div class="eliminar_c">
+                        </div>
+                        <div class="buscar_c">
+                        </div>
+                    </div>
+                    <div class="crud">
+                        <input type="button" value="CREAR" class="Crear">
+                        <input type="button" value="MODIFICAR" class="Crear">
+                        <input type="button" value="ELIMINAR" class="Crear">
+                        <input type="button" value="BUSCAR" class="Crear">
+                    </div>
+                </div>
             </div>
             <div class="formulario_contacto">
 
